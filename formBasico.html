@@ -1,0 +1,54 @@
+<!DOCTYPE hmtl>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<meta description="Esta joda es la que aparece en una búsqueda de Google!!!!" />
+	<link rel="stylesheet" href="./estilos.css" media="all" />
+	<title>Formulario de tu mamá en tanga</title>
+</head>
+<body>
+	<header>
+		<h1>Formulario de tu mamá en tanga</h1>
+	</header>
+	<nav class="navBar">
+		<a href="/html/">Opt1</a> |
+		<a href="/css/">Opt1</a> |
+		<a href="/js/">Opt1</a> |
+		<a href="/jquery/">Opt1</a>
+	</nav>
+	<section class="sectionForm">
+		<form action id="formulario" class="formulario">
+			<label for="txt_Titulo" class="labels">Título:</label>
+			<input type="text" id="txt_Titulo" name="txt_Titulo" class="labels" placeholder="Título" required>
+			<label for="txt_Texto" class="labels">Contenido:</label>
+			<input type="text" id="txt_Texto" name="txt_Texto" placeholder="Contenido" required>
+			<label for="txtUrl" class="labels">Link:</label>
+			<input type="url" id="txtUrl" name="txtUrl" placeholder="Url" required>
+			<input type="submit" value="Publicar">
+		</form>
+	</section>
+
+	<section id="sectionPosts" class="grupoPost">
+		<article id="post1" class="posts">
+			<h1 id="tituloPost">Post de prueba</h1>
+			<p id="contenidoPost">
+				<img src="./BustoEuripides.jpg" class="thumbnailImage">
+				Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. 
+				Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. 
+				Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. Este es un párrafo de prueba. 
+			</p>
+			<a href="http://www.google.com" target="_blank">www.google.com</a>
+		</article>
+	</section>
+	<footer class="footer">
+		<section class="grupoFooter">
+			<article>
+				<p>Desarrollado por la puta madre que te parió.<br />Cualquier intento de réplica de este sitio será castigada<br />por medio de una sesión de pellizcado con alicate.
+				</p>
+			</article>
+		</section>
+	</footer>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="./formulario.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+.navBar{
+	color: #009ABA;
+	background-color: #AAAABB;
+	font-family: sans-serif;
+	text-shadow: rgba(0, 0 , 0, 0.2) 2px 2px 2px;
+	text-align: left;
+	margin-top: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+h1{
+	color: #009ABA;
+	font-family: sans-serif;
+	text-shadow: rgba(0, 0 , 0, 0.2) 2px 2px 2px;
+	text-align: left;
+	margin-top: 0;
+}
+
+.grupoPost{
+	padding: 1em;
+}
+
+.posts{
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #EEEEFF;
+	padding: 1em;
+	width: 20em;
+	height: 13em;
+	display: inline-block;
+	position: relative;
+}
+
+.posts h1{
+	text-align: left;
+	vertical-align: top;
+}
+
+.posts p img{
+	float:left;
+	margin-right: 1em;
+}
+
+.posts p{
+	font-family: sans-serif;
+	font-size: 12;
+}
+
+.posts a{
+	position: absolute;
+	right: 1em;
+    bottom: 1em;
+
+    font-family: sans-serif;
+	font-size: 12;
+	text-shadow: rgba(0, 0 , 0, 0.2) 2px 2px 2px;
+}
+
+
+.formulario{
+	padding: 0.5em 0.5em;
+	text-align: right;
+
+}
+
+.formulario label{
+	padding: 0.2em 0.6em;
+	color: #22BCE0;
+	font-size: italic;
+	font-family: sans-serif;
+	text-shadow: rgba(0, 0 , 0, 0.2) 2px 2px 2px;
+}
+
+.formulario input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+	font-size: italic;
+}
+
+.formulario input[type="submit"]{
+	background: #22BCE0;
+	border-color: #22BCE0;
+	box-shadow: rgba(0, 0, 0 ,0.5) 5px 5px 20px;
+	font-size: italic;
+	text-shadow: rgba(0, 0, 0, 0.5) 2px 2px, 5px;
+	color: white;
+}
+
+.thumbnailImage{
+	text-align: left;
+	width: 80px;
+	height: 96px;
+}
+
+.sectionForm{
+	background-color: #EEEEFF;
+}
+
+.footer{
+	background-color: #EEEEFF;
+	text-align: center;
+}
+
+.footer p{
+	font-family: sans-serif;
+	font-size: 12;
+}
